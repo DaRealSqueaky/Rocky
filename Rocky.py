@@ -16,7 +16,7 @@ while player == False:
         print("Oh wow! You tied :P")
     elif player == "Rock":
         if computer == "Paper":
-            print("You lose!", computer, "covers", player)
+            print("You lost! I bet that Squeaky could even beat me :)", computer, "covers", player)
         else:
             print("You win!", player, "smashes", computer)
     elif player == "Paper":
