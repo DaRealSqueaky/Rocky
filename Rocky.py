@@ -13,7 +13,7 @@ while player == False:
 #set player to True
     player = input("Rock, Paper, Scissors?")
     if player == computer:
-        print("Tie!")
+        print("Oh wow! You tied :P")
     elif player == "Rock":
         if computer == "Paper":
             print("You lose!", computer, "covers", player)
