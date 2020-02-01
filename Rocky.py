@@ -11,12 +11,12 @@ player = False
 
 while player == False:
 #set player to True
-    player = input("Rock, Paper, Scissors?")
+    player = input("Listen up will ya? Rock, Paper or Scissors?")
     if player == computer:
-        print("Tie!")
+        print("Woah, that was a tie! Yee-haw!")
     elif player == "Rock":
         if computer == "Paper":
-            print("You lose! Victor Tran has turned from a blue happy face into a red angry face!!!", computer, "covers", player)
+            print("You lose! Even Victor Tran could beat this game!", computer, "covers", player)
         else:
             print("You win and #youwonwithrock!", player, "smashes", computer)
     elif player == "Paper":
